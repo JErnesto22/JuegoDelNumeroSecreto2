@@ -1,0 +1,32 @@
+body {
+  background-color: #dde6ed;
+}
+.cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+button{
+  border-radius: 15px;
+  background-color: #27374d;
+  color: #dde6ed;
+  width: auto;
+  cursor: pointer;
+}
+.buttonAnother:disabled{
+    background-color: gray;
+    color: darkgray;
+}
+.resetButton:disabled{
+  background-color: gray;
+  color: darkgray;
+}
+
+
+input {
+  margin: 20px;
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+}
